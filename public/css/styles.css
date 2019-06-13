@@ -45,6 +45,11 @@ input {
    padding: 8px;
 }
 
+input:active,
+input:focus {
+   outline-color: #888;
+}
+
 button {
    cursor: pointer;
    border: 1px solid #888;
